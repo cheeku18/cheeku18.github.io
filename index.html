@@ -25,7 +25,11 @@
 </head>
 
 <body id="page-top">
-
+	<div class="projcontainer" id='projcontainer' style="display:none">
+		<div class="closeproject" id="closeproject" onclick="closeProject();"></div>
+		<div class="projectholder" id="projectholder"></div>
+	</div>
+	
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Arun Gopal Govindaswamy</span>
@@ -98,7 +102,7 @@
    <div class="row">
     <div class="col-lg-4 col-sm-6 mb-4">
       <div class="card h-100">
-        <a href="https://github.com/cheeku18/Speech-Emotion-Recognition-using-Tamil-Corpus" target="_blank"><img class="card-img-top" src="img/hci.jpg" alt=""></a>
+      	<div onclick="loadProject('project1')"><img class="card-img-top" src="img/hci.jpg" alt=""></div>
         <div class="card-body">
           <h4 class="card-title">
             <a href="https://github.com/cheeku18/Speech-Emotion-Recognition-using-Tamil-Corpus" target="_blank">Speech Emotion Recognition Using Tamil Corpus</a>
