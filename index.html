@@ -20,6 +20,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
   
 </head>
 
@@ -320,11 +321,16 @@
 
         <div class="subheading mb-3">Skillset</div>
         <ul class="fa-ul mb-0">
-          <li>Analytical - Data Wrangling, Data Manipulation, EDA, Model Building, Hypothesis Testing</li>
-	  <li>Database Management - SQL, SQLite, Apache Hadoop, Hive, Pig, Apache Spark</li>
-          <li>Statistical Techniques - Regression, Decision Trees, Dimensionality Reduction</li>
-          <li>Data Visualization - Tableau, GGPlot2, MatPlotLib, Grafana, PowerBI </li>
-          <li>Programming - Python, SAS, SPSS, R and SQL</li>
+		<div class="skill" id="set1" onclick="toggleSkill(this)"><li>Analytical</li></div>
+			<div id="skill1">- Data Wrangling, Data Manipulation, EDA, Model Building, Hypothesis Testing</div>
+		<div class="skill" id="set2" onclick="toggleSkill(this) ><li>Database Management</li>
+			<div id="skill2">- SQL, SQLite, Apache Hadoop, Hive, Pig, Apache Spark</div>
+		<div class="skill" id="set3" onclick="toggleSkill(this) ><li>Statistical Techniques</li>
+			<div id="skill3">- Regression, Decision Trees, Dimensionality Reduction</div>
+		<div class="skill" id="set4" onclick="toggleSkill(this) ><li>Data Visualization</li>
+			<div id="skill4">- Tableau, GGPlot2, MatPlotLib, Grafana, PowerBI </div>
+		<div class="skill" id="set5" onclick="toggleSkill(this) ><li>Programming</li>
+			<div id="skill5"> - Python, SAS, SPSS, R and SQL</div>
         </ul>
       </div>
     </section>
