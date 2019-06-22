@@ -24,6 +24,7 @@
 		function toggleAnswer(f) {
 			var ans = "ans"+f.id.split('ques')[1];
  			var x = document.getElementById(ans);
+			$("#"+ans).toggle();
 			if (x.style.display === "none") {
 				x.style.display = "block";
 			} else {
@@ -342,9 +343,10 @@
     <hr class="m-0">
 
       <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="certifications">
+	  <div class="w-100">
 	      <h2 class="mb-5">Certifications</h2>
 	      <div class=\"kb-resolution-section section\">
-		      <div id='ques1' onclick='toggleAnswer(this)'>Certified Data Scientist with R</div>
+		      <div class="certification" id='ques1' onclick='toggleAnswer(this)'>Certified Data Scientist with R</div>
 		      <div id='ans1' style='display:none;'>
 			      <ul>
 						<li>Domain understanding and knowledge extraction</li>
@@ -354,7 +356,7 @@
 						<li>Implementation of traditional statistical analysis</li>
 				</ul>
 		      </div>
-		      <div id='ques2' onclick='toggleAnswer(this)'>Business Analyst Using R</div>
+		      <div class="certification" id='ques2' onclick='toggleAnswer(this)'>Business Analyst Using R</div>
 		      <div id='ans2' style='display:none;'>
 			      <ul>
 						<li>Data Exploration and Visualization</li>
@@ -365,8 +367,8 @@
 				</ul>
 		      </div>
 		               
-		      <div id='ques4' onclick='toggleAnswer(this)'>Machine Learning 202</div>
-		      <div id='ans4' style='display:none;'>
+		      <div class="certification" id='ques3' onclick='toggleAnswer(this)'>Machine Learning 202</div>
+		      <div id='ans3' style='display:none;'>
 			      <ul>
 						<li>Classification, regression, and conditional probability estimation</li>
 						<li>Generative and discriminative models</li>
@@ -375,8 +377,8 @@
 						<li>Representation learning: clustering, dimensionality reduction, autoencoders, deep nets</li>
 				</ul>
 		      </div>
-		      <div id='ques5' onclick='toggleAnswer(this)'>R Prgramming Fundamentals</div>
-		      <div id='ans5' style='display:none;'>
+		      <div class="certification" id='ques4' onclick='toggleAnswer(this)'>R Prgramming Fundamentals</div>
+		      <div id='ans4' style='display:none;'>
 			      <ul>
 				      		<li>Statistical computing in R</li>
 						<li>Data manipulation, calculation and graphical display</li>
@@ -388,6 +390,7 @@
 		      </div>
 		      
 	      </div>
+	  </div>
       </section>
 
     <hr class="m-0">
