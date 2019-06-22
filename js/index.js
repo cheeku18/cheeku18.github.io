@@ -10,7 +10,7 @@ function toggleSkill(f) {
 
 function loadProject(filename){
 	$("#projcontainer").show();
-	filename = filename + ".html";
+	filename = "project/"+filename + ".html";
 	$("#projectholder").load(filename);
 	
 }
