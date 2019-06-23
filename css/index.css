@@ -26,7 +26,18 @@
   position: relative;
 	padding-bottom: 10px;
 }
-.skill .certification li:before{
+.skill li:before{
+   content: '';
+   position: absolute;
+   border-right:2px solid #868e96;
+   border-bottom:2px solid #868e96;
+   width:10px;
+   height:10px;
+   top: calc(50% - 4px);
+   left: -20px;
+   transform: translateY(-50%) rotate(-45deg);
+}
+.certification li:before{
    content: '';
    position: absolute;
    border-right:2px solid #868e96;
