@@ -3,9 +3,8 @@ function toggleAnswer(f) {
 	var ans = "ans"+click;
 	var x = document.getElementById(ans);
 	var len = document.getElementsByClassName('certification').length;
-	for(var i=1;i++;i<=len){
-		ans = "ans"+i;
-		document.getElementById(ans).style.display='none';
+	for(var i=1;i<=len;i++){
+		document.getElementById("ans"+i).style.display='none';
 	}
 	if(x.style.display=='none'){
 		x.style.display='block';
@@ -17,7 +16,7 @@ function toggleSkill(f) {
 	var ans = "skill"+click;
 	var x = document.getElementById(ans);
 	var len = document.getElementsByClassName('skill').length;
-	for(var i=1;i++;i<=len){
+	for(var i=1;i<=len;i++){
 		ans = "skill"+i;
 		document.getElementById(ans).style.display='none';
 	}
