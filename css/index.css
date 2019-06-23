@@ -37,6 +37,10 @@
    left: -20px;
    transform: translateY(-50%) rotate(-45deg);
 }
+.certification li {
+  position: relative;
+	padding-bottom: 10px;
+}
 .certification li:before{
    content: '';
    position: absolute;
