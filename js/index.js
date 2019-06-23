@@ -1,11 +1,30 @@
 function toggleAnswer(f) {
-	var ans = "ans"+f.id.split('ques')[1];
-	$("#"+ans).toggle();
+	var click = f.id.split('ques')[1];
+	var ans = "ans"+click;
+	var x = document.getElementById(ans);
+	var len = document.getElementsByClassName('certification').length;
+	for(var i=1;i++;i<=len){
+		ans = "ans"+i;
+		document.getElementById(ans).style.display='none';
+	}
+	if(x.style.display=='none'){
+		x.style.display='block';
+	}
 }
 
 function toggleSkill(f) {
-	var skill = "skill"+f.id.split('set')[1];
-	$("#"+skill).toggle();
+	var click = f.id.split('set')[1];
+	var ans = "skill"+click;
+	var x = document.getElementById(ans);
+	var len = document.getElementsByClassName('skill').length;
+	for(var i=1;i++;i<=len){
+		ans = "skill"+i;
+		document.getElementById(ans).style.display='none';
+	}
+	if(x.style.display=='none'){
+		x.style.display='block';
+	}
+
 }
 
 function loadProject(filename){
