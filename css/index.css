@@ -1,8 +1,10 @@
 .certification{
   cursor : pointer;
+  margin-bottom : -4px;
   max-width: max-content;
 }
 .skill {
   cursor : pointer; 
+  margin-bottom : -4px;
   max-width: max-content;
 }
