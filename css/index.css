@@ -15,8 +15,8 @@
   color : #bd5d38!important;
 }
 #arrow {
-    border-right:2px solid #bd5d38;
-    border-bottom:2px solid #bd5d38;
+    border-right:2px solid #868e96;
+    border-bottom:2px solid #868e96;
     width:10px;
     height:10px;
     transform: rotate(-45deg);
@@ -26,11 +26,11 @@
   position: relative;
 	padding-bottom: 10px;
 }
-.skill li:before{
+.skill .certification li:before{
    content: '';
    position: absolute;
-   border-right:2px solid #bd5d38;
-   border-bottom:2px solid #bd5d38;
+   border-right:2px solid #868e96;
+   border-bottom:2px solid #868e96;
    width:10px;
    height:10px;
    top: calc(50% - 4px);
