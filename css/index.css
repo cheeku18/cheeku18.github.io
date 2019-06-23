@@ -15,25 +15,22 @@
   color : #bd5d38!important;
 }
 #arrow {
-    border-right:2px solid black;
-    border-bottom:2px solid black;
+    border-right:2px solid #bd5d38;
+    border-bottom:2px solid #bd5d38;
     width:10px;
     height:10px;
     transform: rotate(-45deg);
     margin-top:40px;
 }
-ul li {
+.skill li {
   position: relative;
 	padding-bottom: 10px;
 }
-ul {
-  list-style: none;
-}
-ul li:before{
+.skill li:before{
    content: '';
    position: absolute;
-   border-right:2px solid black;
-   border-bottom:2px solid black;
+   border-right:2px solid #bd5d38;
+   border-bottom:2px solid #bd5d38;
    width:10px;
    height:10px;
    top: calc(50% - 4px);
