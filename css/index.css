@@ -8,3 +8,9 @@
   margin-bottom : -4px;
   max-width: max-content;
 }
+.skill: hover {
+  color : #bd5d38!important;
+}
+.certification: hover {
+  color : #bd5d38!important;
+}
