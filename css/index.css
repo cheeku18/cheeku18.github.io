@@ -52,3 +52,11 @@
    left: -20px;
    transform: translateY(-50%) rotate(-45deg);
 }
+.btn-primary {
+    background-color: #485056 !important;
+    bordeer-color: #485056 !important;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #bd5d38 !important;
+    bordeer-color: #bd5d38 !important;
+}
