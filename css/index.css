@@ -55,6 +55,7 @@
 .btn-primary {
     background-color: #485056 !important;
     border-color: #485056 !important;
+    padding: 0.1rem .75rem;
 }
 .btn-primary:hover {
     background-color: #bd5d38 !important;
