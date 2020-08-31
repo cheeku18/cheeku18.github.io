@@ -56,7 +56,7 @@
     background-color: #485056 !important;
     border-color: #485056 !important;
 }
-.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+.btn-primary:hover {
     background-color: #bd5d38 !important;
     border-color: #bd5d38 !important;
 }
